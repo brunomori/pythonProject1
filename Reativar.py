@@ -1,13 +1,10 @@
-menu=int(input('Bem vindo ao menu!\n Digite 1 para xxx \n Digite 2 para xxx \n digite 3 para xxx'))
-while:
-    if menu==1:
-        print('Voce selecinou a opção 1')
+n1=int(input('Digite a primeira nota'))
+n2=int(input('Digite a segunda nota'))
 
-    elif menu==2:
-        print('Você selecinou a opção 2')
+m=(n1+n2)/2
 
-    elif menu==3:
-        print('Voce selecinnou a opção 3')
-        break
-    else:
-        print('OPção invalida')
+print('A media é {}'. format(m))
+if m>=8:
+    print('PARABENS VOCÊ PASSOU!')
+else:
+    print('Burro reprovou')
